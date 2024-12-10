@@ -5,9 +5,13 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #eeeeee;
+  background-color: #f0c8c8;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   font-family: Arial, sans-serif;
   overflow: hidden;
+  background-image: url(./z5846732642039_003d624e1bffc366bcd76d8ae6893f2d.jpg);
 }
 
 h1 {
@@ -17,19 +21,13 @@ h1 {
   font-size: 50px;
   transform: translateX(-50%);
 }
-a {
-  position: fixed;
-  bottom: 0;
-  text-align: center;
-  font-size: 14px;
-  color: #333;
-}
+
 button {
   position: absolute;
   z-index: 1;
   padding: 15px 30px;
   font-size: 18px;
-  font-family: 'Arial', 'Helvetica', sans-serif;
+  font-family: "Arial", "Helvetica", sans-serif;
   background-color: #0a2b57;
   color: white;
   border: none;
@@ -38,14 +36,14 @@ button {
 }
 
 button:hover {
-  background-color: #1b53a7;
+  background-color: #34bd62;
 }
 
 .notification {
   position: absolute;
   width: 240px;
   height: 160px;
-  background-color: #FFB6C1;
+  background-color: #d255c4;
   color: rgb(0, 0, 0);
   font-size: 16px;
   border-radius: 10px;
@@ -70,8 +68,8 @@ button:hover {
 }
 
 .notification-header span {
-  color: rgb(0, 0, 0);
-  font-family: 'Arial', 'Helvetica', sans-serif;
+  color: rgb(68, 52, 52);
+  font-family: "Arial", "Helvetica", sans-serif;
   text-align: center;
   flex-grow: 1;
 }
@@ -82,7 +80,7 @@ button:hover {
   padding: 10px;
   flex-grow: 1;
   display: flex;
-  font-family: 'Arial', 'Helvetica', sans-serif;
+  font-family: "Arial", "Helvetica", sans-serif;
   font-style: normal;
   justify-content: center;
   align-items: center;
@@ -95,7 +93,7 @@ button:hover {
   padding: 5px;
   background-color: transparent;
   border: none;
-  color: rgb(0, 0, 0);
+  color: rgb(104, 54, 54);
   margin-left: auto;
 }
 
